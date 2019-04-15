@@ -1,0 +1,160 @@
+<html>
+<head>
+	<style type="text/css">
+		
+
+
+
+.card{
+  
+  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  margin:auto;
+  width:500px;
+  
+ background: #eeeee7;
+ margin-bottom: 10px;
+
+  border-radius: 5px;
+}
+
+.btn{
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+
+ margin: 12 80% ;
+
+  font-size: 16px;
+    border-radius: 5px;
+ 
+}
+img{
+  height:40px;
+  width:40px;
+margin: 0,0,0,0;
+    
+}
+
+
+
+
+
+.c1{
+
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 0; 
+ 
+  
+
+  transition: all .6s;
+
+
+}
+
+
+.c2{
+
+   height: auto;
+  opacity: 1;
+  padding-bottom: 20px;
+  margin:5px;
+   transition: all .6s;
+}
+
+
+	</style>
+
+	<script type="text/javascript">
+	
+		
+
+function doalert(checkboxElem) 
+{
+
+  var card = checkboxElem.parentNode;
+var child = null;
+
+for (var i = 0; i < card.childNodes.length; i++) {
+    if (card.childNodes[i].className == "c2"||card.childNodes[i].className == "c1") {
+      child = card.childNodes[i];
+      break;
+    }    }
+
+if(child.className=="c2")
+{
+  child.className="c1";
+}
+else{
+
+    child.className="c2";
+}
+
+
+
+
+}
+
+function doalertb(buttn) 
+{
+
+  var card = buttn.parentNode;
+var child = null;
+
+for (var i = 0; i < card.childNodes.length; i++) {
+    if (card.childNodes[i].className == "c2"||card.childNodes[i].className == "c1") {
+      child = card.childNodes[i];
+      break;
+    }    }
+
+if(child.className=="c2")
+{
+  child.className="c1";
+}
+else{
+
+    child.className="c2";
+}
+
+
+
+
+}
+
+
+	</script>
+</head>
+<body>
+<div class="card"> 
+<input type="checkbox"  id="spoiler4" name="32" onchange="doalert(this)" /> 
+<button class="btn" name="ds" onclick="doalertb(this)">
+fdf
+</button>
+<div class="c2" id="dssa">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sodales tortor, posuere mattis nunc. Integer eget sapien ullamcorper diam mollis laoreet. Praesent dignissim id urna at malesuada. Etiam id nisl vitae ante vestibulum volutpat. 
+  <br/><br/>
+  Etiam congue, neque a commodo iaculis, nisl massa varius felis, eget commodo eros mauris vitae felis. Pellentesque sed nisi bibendum, faucibus lectus id, varius metus. Vestibulum lacinia vehicula justo, ut molestie magna tincidunt nec. Suspendisse sit amet sagittis enim.
+</div>
+</div> 
+
+
+
+<div class="card"> 
+<input type="checkbox"  id="spoiler4" name="32" onchange="doalert(this)" /> 
+<button class="btn" name="ds" onclick="doalertb(this)">
+fdf
+</button>
+<div class="c2" id="dssa">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sodales tortor, posuere mattis nunc. Integer eget sapien ullamcorper diam mollis laoreet. Praesent dignissim id urna at malesuada. Etiam id nisl vitae ante vestibulum volutpat. 
+  <br/><br/>
+  Etiam congue, neque a commodo iaculis, nisl massa varius felis, eget commodo eros mauris vitae felis. Pellentesque sed nisi bibendum, faucibus lectus id, varius metus. Vestibulum lacinia vehicula justo, ut molestie magna tincidunt nec. Suspendisse sit amet sagittis enim.
+</div>
+</div> 
+</body>
+</html>
