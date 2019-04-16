@@ -1,0 +1,75 @@
+
+.card{
+  
+  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  margin:auto;
+  width:500px;
+  
+ background: #eeeee7;
+ margin-bottom: 10px;
+
+  border-radius: 5px;
+}
+
+.btn{
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+
+ margin: 12 80% ;
+
+  font-size: 16px;
+    border-radius: 5px;
+ 
+}
+img{
+  height:40px;
+  width:40px;
+margin: 0,0,0,0;
+    
+}
+ 
+
+
+
+body{
+
+
+  height: 100vh;
+  background-image: linear-gradient(-206deg, #835EFF 0%, #FF008D 100%);
+}
+
+.c1{
+
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 0; 
+ 
+  
+
+  transition: all .6s;
+
+
+}
+
+
+.c2{
+
+   height: auto;
+  opacity: 1;
+  padding-bottom: 20px;
+  margin:5px;
+   transition: all .6s;
+}
+
+
+#bubble {
+  width: 100%;
+  height: 100%;
+}
