@@ -35,7 +35,21 @@ margin: 0,0,0,0;
     
 }
  
+@font-face {
+  font-family: 'noto_sansregular';
+  src: url('/fonts/notosans-regular-webfont.woff2') format('woff2'),
+       url('/fonts/notosans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
+}
+
+ a{
+
+  font-family: 'noto_sansregular';
+  font-size: 100%;
+  
+ }
 
 
 #bodymain{
@@ -49,7 +63,7 @@ margin: 0,0,0,0;
 #bodyindex{
 
 
-  background: #4CAF50;
+  background: #fffc74;
 
 }
 
