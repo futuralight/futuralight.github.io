@@ -4,6 +4,9 @@
   <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">	
   <script src="scripts/bootstrap.min.js"></script>
   <script src="scripts/skripts.js"></script>
+
+
+
 </head>
 <body id="bodyindex" >
   <nav class="navbar navbar-light bg-transparent">
@@ -18,19 +21,90 @@
 
   
  
+<div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-5 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="">Yeah, yeah, yeah, yeah
+              I fantasized 'bout this back in Chicago
+              Mercy, mercy me, that Murcielago
+              That's me, the first year that I blow
+            </h1>
+          
+          </div>
+        </div>
+        <div class="col-lg-7">
+          
+          
+                  <svg class="h-100 w-100" >
+                    <circle id="circle1" cx="45%" cy="50%" r="30%" fill="#b2b051"/>
+                    <circle id="circle2" cx="43%" cy="45%" r="24%" fill="#ccc95c"/>
+                    <circle id="circle3" cx="40%" cy="45%" r="16%" fill="#e5e268"/>
+                    <circle id="circle4" cx="39%" cy="45%" r="8%" fill="#fffc74"/>
+                  </svg>
+                
+              
+      </div>
+    </div>
+
 
   
-  <div >
 
-    
-  <svg width="60%" height="100%"  class="float-right position-sticky" >
-  <circle cx="45%" cy="35%" r="30%" fill="#b2b051"/>
-  <circle cx="43%" cy="45%" r="20%" fill="#ccc95c"/>
-  <circle cx="40%" cy="45%" r="10%" fill="#e5e268"/>
-</svg>
-<img src="img/PprAZSYr.png"  class="float-right position-absolute"  style="height: 400px !important; width: auto;" >
-</div>
-
+<img src="img/PprAZSYr.png"  class=""  style="height: 400px !important; width: auto;" >
 
 </body>
+<script>
+
+
+document.getElementById('circle1')
+  .addEventListener('mouseenter', function(e) {
+
+  document.getElementById('circle4').setAttribute('fill', '#fffc74');
+  document.getElementById('circle3').setAttribute('fill', '#e5e268');
+  document.getElementById('circle2').setAttribute('fill', '#ccc95c');
+  document.getElementById('circle1').setAttribute('fill', '#b2b051');
+  document.getElementById('bodyindex').style.background='#fffc74';
+
+
+});
+   
+   document.getElementById('circle2')
+  .addEventListener('mouseenter', function(e) {
+
+  document.getElementById('circle4').setAttribute('fill', '#f55b53');
+  document.getElementById('circle3').setAttribute('fill', '#dc514a');
+  document.getElementById('circle2').setAttribute('fill', '#c44842');
+  document.getElementById('circle1').setAttribute('fill', '#ab3f3a');
+  document.getElementById('bodyindex').style.background='#f55b53';
+
+
+});
+
+document.getElementById('circle3')
+  .addEventListener('mouseenter', function(e) {
+
+  document.getElementById('circle1').setAttribute('fill', '#598e49');
+  document.getElementById('circle2').setAttribute('fill', '#66a254');
+  document.getElementById('circle3').setAttribute('fill', '#73b65e');
+  document.getElementById('circle4').setAttribute('fill', '#80CB69');
+  document.getElementById('bodyindex').style.background='#80CB69';
+
+
+});
+
+document.getElementById('circle4')
+  .addEventListener('mouseenter', function(e) {
+
+  document.getElementById('circle4').setAttribute('fill', '#5aa3f1');
+  document.getElementById('circle3').setAttribute('fill', '#4296ef');
+  document.getElementById('circle2').setAttribute('fill', '#2b89ed');
+  document.getElementById('circle1').setAttribute('fill', '#147cec');
+  document.getElementById('bodyindex').style.transition = "width 10s linear";
+  document.getElementById('bodyindex').style.background='#5aa3f1';
+
+
+});
+
+
+</script>
 </html>
