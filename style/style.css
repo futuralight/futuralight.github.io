@@ -44,10 +44,11 @@ margin: 0,0,0,0;
 
 }
 
- a{
+ .notosans{
 
+  font-size: 40pt;
   font-family: 'noto_sansregular';
-  font-size: 100%;
+ 
   
  }
 
