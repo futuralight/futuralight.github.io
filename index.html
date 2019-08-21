@@ -39,7 +39,7 @@
                   <svg class="h-100 w-100" >
                     <circle id="circle1" cx="50%" cy="50%" r="28%" fill="#b2b051"/>
                     <circle id="circle2" cx="49%" cy="47%" r="24%" fill="#ccc95c"/>
-                    <circle id="circle3" cx="44%" cy="45%" r="16%" fill="#e5e268"/>
+                    <circle id="circle3" cx="44%"  cy="45%" r="16%" fill="#e5e268"/>
                  
                       <circle id="circle4" cx="39%" cy="45%" r="8%" fill="#fffc74"/>
                      
@@ -50,11 +50,12 @@
     </div>
 
 
-    <audio controls autoplay>    
-        <source src="/media/audio/1st Pierre Tag.wav" >
+    <audio id="audio1" class="ds" src="media/audio/1st Pierre Tag.wav" >    
+        
         </audio>
 
-<img src="img/PprAZSYr.png"  class=""  style="height: 400px !important; width: auto;" >
+
+<img src="img/PprAZSYr.png"  onclick="play()"  class=""  style="height: 400px !important; width: auto;" >
 
 </body>
 <script>
@@ -107,7 +108,15 @@ document.getElementById('circle4')
   document.getElementById('bodyindex').style.background='#5aa3f1';
 
 
-});
+});       
+
+function play(){
+       var audio = document.getElementById("audio1");
+       audio.play();
+                 }
+
+                 
+
 
 
 </script>
